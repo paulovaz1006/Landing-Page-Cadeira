@@ -1,6 +1,52 @@
 *{
     font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
 }
+
+.w-100{
+    width: 100%!important;
+}
+.img-fluid{
+    width: 100%!important;
+}
+.text-center{
+    text-align: center;
+} 
+.mb-4{
+    margin-bottom: 26px;
+}
+.mb-2{
+    margin-bottom: 14px;
+}
+.init-black p {
+    padding: 0 100px 0 0;
+}
+.position-absolute{
+    position: absolute;
+}
+.float-left{
+    float:left;
+}
+.float-right{
+    float:right;
+}
+.px-40{
+    padding: 0 40px!important;
+}
+.text-white{
+    color:#fff;
+}
+.text-left{
+    text-align: left;
+}
+.mr-4{
+    margin-right: 20px;
+}
+.ml-4{
+    margin-left: 20px;
+}
+
 #triangulo-para-baixo {
     width: 0;
     height: 0;
@@ -130,8 +176,8 @@ a{
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    position: absolute;
-    left: 20%;
+    position: relative;
+    left: 0;
     top: 100%;
 }
 .btn-view:hover{    
@@ -315,9 +361,10 @@ h3{
 .countdown ul li span{
     font-size: 45px;
 }
-.countdown h4{
+.countdown p{
     font-size: 45px;
     font-weight: bold;
+    line-height: 50px;
 }
 .bg-subanner{
     background-color:#c42e3a;
@@ -509,6 +556,9 @@ h3{
     }    
 }
 @media(max-width:960px){
+    .btn-view {
+        bottom: -40px;
+    }
     .triangulo-para-baixo-responsive{
         max-width: 100%;
         float: none!important;
